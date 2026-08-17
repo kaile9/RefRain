@@ -45,7 +45,7 @@ directories = "=6.0.0"
 rfd = { version = "=0.17.2", default-features = false, features = ["pollster", "xdg-portal"] }
 # rfd 已经把它带进依赖树；直接依赖只为把对话框的 owner 窗句柄交给 rfd（staticlib.rs）。
 raw-window-handle = "0.6"
-rusqlite = { version = "=0.40.1", features = ["bundled"] }
+rusqlite = { version = "=0.40.2", features = ["bundled"] }
 
 # The icon pipeline (C7): SVG needs a real parser (a hand-rolled one is the
 # DTD/entity surface the format exists to refuse) and a real rasteriser;
